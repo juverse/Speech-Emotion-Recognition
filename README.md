@@ -1,12 +1,12 @@
 # Speech-Emotion-Recognition
 In this project, we propose an emotion recognition system to model the Urdu
 language using languages such as German, English and Italian. We want to see if we can
-generalize across languages.  This project replicates the Paper "Cross Lingual Speech Emotion Recognition: Urdu vs. Western Languages.
+generalize across languages.  This project replicates the Paper "Cross Lingual Speech Emotion Recognition: Urdu vs. Western Languages (https://arxiv.org/pdf/1812.10411).
 
 ## Tabel of Contents
 - [Installation](#installation)
-- [Features](#features)
-- [Main Results](#results)
+- [Code](#code)
+- [Results](#results)
 - [Critic](#critic)
   
 ## Installation
@@ -37,7 +37,7 @@ In this folder, we replicate the experiments from the original paper. In the fil
 #### Evaluation
 In this folder, we evaluate the feature importances for the baseline model and the results of all experiments.
 
-## Main Results
+## Results
 
 ## Critic
 The models were tested on a variety of languages, but many of the datasets are small and not representative of the broader linguistic diversity. This is especially true for Urdu, which is a relatively under-researched language in this context. Additionally, Urdu contains many English sequences, which may have influenced the performance of the models.
