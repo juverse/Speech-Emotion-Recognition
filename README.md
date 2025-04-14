@@ -12,7 +12,7 @@ generalize across languages.  This project replicates the Paper "Cross Lingual S
 ## Installation
 #### 1. Clone the repository 
 ```bash
- git clone (https://github.com/juverse/Speech-Emotion-Recognition.git
+ git clone https://github.com/juverse/Speech-Emotion-Recognition.git
 ```
 #### 2. Install dependencies:
 To run this project, the following dependencies are required. It is recommended to create a conda environment to manage the dependencies.
@@ -45,3 +45,8 @@ In this paper, we compared three European languages — German, English, and Ita
 Urdu is the national language of Pakistan and is spoken by millions of people. Therefore, it is not a "small language" in terms of the number of speakers. However, compared to languages like English, it has been less extensively researched in the field of computational linguistics. This lack of research and available datasets may have impacted the results of our study.
 Additionally, it is worth noting that Urdu often includes English sequences, which could have influenced model performance. Given these factors, our findings should be interpreted with caution, and further studies with more comprehensive and balanced datasets are necessary.
 Furthermore, all four languages are part of the historical indo-european language family. Although English and German are relatively closely related since both are western germanic languages, they are as far away from italic languages such as Italian as they are from indian languages such as Urdu.
+
+## Comparison with Initial Project Plan
+We closely followed our project proposal. In fact, we went beyond it by replicating all experiments from the original paper. Additionally, we included a dummy model, suggested an improvement to the baseline model, calculated feature importances and SHAP values, and carried out an additional comparison across languages.
+Contrary to what we had originally announced, we ended up using all features, just like in the original paper. We manually tested a few hyperparameters but decided against using random or grid search, as we prioritized comparing all experiments with each other over hyperparameter optimization.
+Overall, we gained valuable insights throughout the project, and we consider it a successful and rewarding experience.
