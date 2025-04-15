@@ -37,8 +37,6 @@ In this folder, we replicate the experiments from the original paper. In the fil
 #### Evaluation
 In this folder, we evaluate the feature importances for the baseline model and the results of all experiments.
 
-## Results
-
 ## Critic
 The models were tested on a variety of languages, but many of the datasets are small and not representative of the broader linguistic diversity. This is especially true for Urdu, which is a relatively under-researched language in this context. In the description of the dataset 38 speakers are mentioned although only 29 speakers audio files are contained in the dataset. Additionally, Urdu contains many English sequences, which may have influenced the performance of the models. 
 In this paper, the authors compared three European languages — German, English, and Italian — with Urdu. The original paper referred to these as "Western languages", although there are many more European and non-European languages that are affiliated with the "Western" hemisphere. However, it is important to clarify a few points.
